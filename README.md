@@ -18,5 +18,10 @@ Nota2: Puede que haya fallos al momento de la instalacion de MoveIt, en mi caso 
   https://answers.ros.org/question/374436/error-cannot-launch-node-of-type-moveit_ros_move_groupmove_group-moveit_ros_move_group/
   
 ---------
-  
+(carpeta: catkin_ws)
 
+source ~/catkin_ws/devel/setup.bash
+
+echo 'source ~/catkin_ws/devel/setup.bash' >> ~/.bashrc
+
+roslaunch moveo_moveit_config demo.launch
