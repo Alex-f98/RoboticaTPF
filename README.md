@@ -16,6 +16,7 @@ Nota1: Si se esta usando ROS o moveit por primera vez es recomendable seguir los
   para el caso de moveit basta con seguir su tutorial hasta "Move Group Python Interface".
 Nota2: Puede que haya fallos al momento de la instalacion de MoveIt, en mi caso los solucione con los siguiente Links:
   https://answers.ros.org/question/374436/error-cannot-launch-node-of-type-moveit_ros_move_groupmove_group-moveit_ros_move_group/
+  https://answers.ros.org/question/192369/moveit-rviz-plugin-error/
   
 ---------
 (carpeta: catkin_ws)
