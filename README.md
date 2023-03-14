@@ -26,3 +26,6 @@ source ~/catkin_ws/devel/setup.bash
 echo 'source ~/catkin_ws/devel/setup.bash' >> ~/.bashrc
 
 roslaunch moveo_moveit_config demo.launch
+https://www.youtube.com/watch?v=l4dtSRvlAjg
+https://www.youtube.com/watch?v=xHh6kd5aQxA
+https://github.com/jesseweisberg/moveo_ros
