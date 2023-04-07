@@ -64,3 +64,5 @@ por:
 Eigen::Isometry3d text_pose = Eigen::Isometry3d::Identity();
 
 dado que MoveIt modifico varias de sus funciones entre ellas Affine3d por Isometry3d segun : https://github.com/ros-planning/moveit_tutorials/issues/262
+
+Luego de hacer la modificacion no olvides usar "catkin_make" en el directorio raiz que hayas creado
