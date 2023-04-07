@@ -32,13 +32,22 @@ https://github.com/jesseweisberg/moveo_ros
 
 --------------------------
 para probar el demo:
+
 si estoy en windows y tengo WSL instalado con Ubuntu-20.04:
+
 wsl -d Ubuntu-20.04
+
 mkdir -p ~/catkin_ws/src       ....(no tiene por que ser "catkin_ws" puede ser "mi_carpeta_ws" pero almenos que tengas otra carpeta igual usar catkin_ws)
+
 cd ~/catkin_ws
+
 catkin_make                    .....esto comprobara que todas las dependencias esten bien y que codigos tengan lo necesario para compilas etc etc etc...
+
 cd src/
+
 git clone https://github.com/jesseweisberg/moveo_ros.git
+
 ..Una vez hecho esto recien se van a poder seguir los pasos que muestra en el repositorio original..
+
 roslaunch moveo_moveit_config demo.launch
 
