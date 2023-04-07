@@ -51,3 +51,16 @@ git clone https://github.com/jesseweisberg/moveo_ros.git
 
 roslaunch moveo_moveit_config demo.launch
 
+--------
+Cositas para arreglar:
+en "move_group_interface_coor_1.cpp"
+
+debes cambiar:
+
+Eigen::Affine3d text_pose = Eigen::Affine3d::Identity();
+
+por:
+
+Eigen::Isometry3d text_pose = Eigen::Isometry3d::Identity();
+
+dado que MoveIt modifico varias de sus funciones entre ellas Affine3d por Isometry3d segun : https://github.com/ros-planning/moveit_tutorials/issues/262
