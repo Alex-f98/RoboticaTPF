@@ -1,6 +1,7 @@
 # RoboticaTPF 
 
-# Se puede encontrar el proy4ecto en *theconstruct* como un rosject llamado **moveo-ROBÓTICA (8615)-Fiuba**
+# Se puede encontrar el proy4ecto en *theconstruct* como un rosject llamado **"moveo-ROBÓTICA (8615)-Fiuba"**
+
 El paso a paso para la elavoracion de control de movimiento para el robot  Moveo (BCN3D) 5Dof mediante ROS _1 con MoveIt.
 -----------
 #Distribucion de linux
